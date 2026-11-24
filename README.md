@@ -33,13 +33,6 @@ Após **3 tentativas** de login incorretas, o acesso é bloqueado.
 | `br.edu.servico` | `Autenticador` | Regras do login e do cadastro |
 | `br.edu.visao` | `TelaLogin` | Interação com o usuário |
 
-## 🧩 Conceitos de POO aplicados
-
-- **Classe abstrata e herança:** `Usuario` é abstrata, e `UsuarioComum` e `UsuarioAdmin` herdam dela.
-- **Polimorfismo:** cada tipo de usuário exibe o seu próprio menu pelo mesmo método, `exibirMenu()`.
-- **Interface:** `RepositorioUsuarios` define o que um repositório faz, e `UsuarioRepositorioArquivo` a implementa.
-- **Encapsulamento:** atributos privados com acesso por métodos.
-- **Sobrescrita:** `toString()`, `equals()` e `hashCode()` em `Usuario`.
 
 ## ▶️ Como executar
 
